@@ -1,0 +1,12 @@
+.home-page
+    h1 Formulaire d'ajout utilisateurs
+    form(action=".", method="POST").form-user
+        label(for="name")
+            span nom
+            input(type='text', id='name', name='name')
+        label(for="date")
+            span date d'anniversaire
+            input(type='date', id='date', name='birth')
+        if msg
+            p=msg
+        button(type='submit') Ajouter

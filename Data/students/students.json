@@ -1,0 +1,28 @@
+{
+  "students": [
+    {
+      "name": "Sonia",
+      "birth": "2020-02-05"
+    },
+    {
+      "name": "Antoine",
+      "birth": "2000-12-05"
+    },
+    {
+      "name": "Alice",
+      "birth": "1991-02-09"
+    },
+    {
+      "name": "Sophie",
+      "birth": "2001-10-02"
+    },
+    {
+      "name": "Bernard",
+      "birth": "1981-09-08"
+    },
+    {
+      "name": "Delmont",
+      "birth": "2024-05-03"
+    }
+  ]
+}

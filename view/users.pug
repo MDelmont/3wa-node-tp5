@@ -1,0 +1,9 @@
+.user-page
+    h1 users
+    .user-list
+        each student in students 
+            .student
+                p=`${student.name} ${student.birth}`
+                a(href=`/users/delete/${student.name}`, class="delete-link", data-username=student.name) X
+            
+    

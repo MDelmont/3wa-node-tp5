@@ -34,6 +34,7 @@ exports.getAllStudents = async (filePath,dateFormat) => {
  * @returns {boolean}
  */
 exports.addStudent = async (name, birth,filePath) => {
+    
     try {
         if (!name || !birth) {
             console.log('missing value')
